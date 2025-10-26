@@ -1,0 +1,27 @@
+.result-card{
+    display: flex;
+    margin-bottom: 20px;
+}
+.result-card .poster-wrapper img,.filter-poster{
+    width: 75px;
+    height: 113px;
+    background-color: blue;
+    display: block;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.result-card .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.result-card .info .release-date{
+    font-size: 1.3rem;
+    color:rgb(4, 29, 51);
+    margin: 0;
+    font-weight: 300;
+}
+.result-card .controls .btn{
+    margin-right: 10px;
+}
